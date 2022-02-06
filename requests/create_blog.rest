@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjYxZTQ0MmY3N2VkZDExNWUwZDQ0YjYyOCIsImlhdCI6MTY0MjQ1ODk0N30.0_R9d03LwLASb0ArYE2jTGI44a2peJQmu5T8lbwEUN0
+
+{
+  "title": "Test Admin",
+  "author": "Um autor admin",
+  "url": "http://www.admin.com.br",
+  "likes": 0
+}
